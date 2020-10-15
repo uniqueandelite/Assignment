@@ -105,7 +105,6 @@ $(document).ready(function () {
                 roomCode.find("#room_quant").val(quant);
                 roomCode.find("#final_rate").text(mrpPrice);
                 totalAmount = totalAmount + (totalDays * quant * mrpPrice);
-                console.log(totalAmount);
             }
         }
         $(".row").find("#totalAmount").text(totalAmount);
@@ -187,7 +186,6 @@ $(document).ready(function () {
     //Guest number
     $(".row").find("#guest-no").change(function () {
         var guest_no = $(this).val();
-        console.log(guest_no);
         $(".row").find("#guest").text(guest_no);
     });
 });
