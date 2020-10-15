@@ -1,0 +1,413 @@
+     .container1 {
+         position: relative;
+         text-align: center;
+         color: white;
+     }
+
+     input[type=date] {
+         text-decoration: none;
+         background-color: inherit;
+         color: black;
+         border: 0px;
+     }
+
+     input[type=time] {
+         text-decoration: none;
+         background-color: inherit;
+         color: black;
+         border: 0px;
+         width: 100x;
+         height: auto;
+     }
+
+     input[type=number] {
+         text-decoration: none;
+         background-color: inherit;
+         color: black;
+         width: 30px;
+         height: auto;
+         border: none;
+     }
+
+     .top-right {
+         position: absolute;
+         top: 8px;
+         right: 6px;
+     }
+
+     .top-left {
+         position: absolute;
+         top: 8px;
+         left: 12px;
+     }
+
+     .pathway {
+         font-family: 'Pathway Gothic One', sans-serif;
+     }
+
+     .vidaloka {
+         font-family: 'Vidaloka', serif;
+     }
+
+     .monte {
+         font-family: 'Pathway Gothic One', sans-serif;
+     }
+
+     .poppins {
+         font-family: 'Poppins', sans-serif;
+     }
+
+     .bigfont {
+         font-size: 25px;
+     }
+
+     .mediumfont {
+         font-size: 20px;
+         letter-spacing: 2px;
+         color: gray;
+     }
+
+     .mediumfont-list {
+         font-size: 15px;
+         letter-spacing: 2px;
+         color: gray;
+     }
+
+     .smallfont {
+         font-size: 10px;
+         letter-spacing: 2px;
+     }
+
+     .letter-spacing {
+         letter-spacing: 2px;
+         padding: 5px;
+     }
+
+     .view {
+         color: green;
+         font-size: 20px;
+     }
+
+     .imgover {
+         background-color: rgba(128, 128, 128, 0.829);
+         border-radius: 20px;
+         margin-right: 10px;
+         padding: 10px;
+         font-size: 13px;
+         letter-spacing: 1px;
+     }
+
+     .mostloved {
+         font-size: 13px;
+         letter-spacing: 1px;
+         color: gray;
+         background-color: rgba(255, 255, 255, 0.164);
+         padding: 7px;
+     }
+
+     .red {
+         color: red;
+     }
+
+     .promotextbig {
+         color: purple;
+         font-size: 18px;
+         letter-spacing: 1px;
+     }
+
+     .promotextsmall {
+         color: purple;
+         font-size: 13px;
+         letter-spacing: 1px;
+     }
+
+     .promotext {
+         font-size: 15px;
+         letter-spacing: 1px;
+     }
+
+     .promotext:hover {
+         font-size: 16px;
+     }
+
+     #promotext-on {
+         color: purple;
+     }
+
+     #promotext-off {
+         color: gray;
+     }
+
+     .gray {
+         color: gray;
+     }
+
+     .uppercase {
+         text-transform: uppercase;
+         font-weight: bold;
+         padding-top: 20px;
+     }
+
+     .viewfoot {
+         color: green;
+         text-align: center;
+         font-size: 18px;
+         background-color: #E1F5FE;
+     }
+
+     .lightgray {
+         color: #424242;
+         font-size: 15px;
+     }
+
+     .green {
+         color: green;
+     }
+
+     .image1 {
+         width: 100%;
+         height: auto;
+         margin: 0px 0px;
+         padding: 0px 0px;
+     }
+
+     .strike {
+         text-decoration: line-through;
+         font-weight: bold;
+     }
+
+     .right {
+         text-align: right;
+     }
+
+     .center {
+         width: 50%;
+         margin: auto;
+     }
+
+     .less-center {
+         width: 70%;
+         margin: auto;
+     }
+
+     .white {
+         background-color: white;
+         color: white;
+     }
+
+     .no-margin {
+         margin: 0px;
+         padding: 0px;
+     }
+
+     .logo-size {
+         font-size: 18px;
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+
+     @media screen and (max-width:320px) {
+         .logo-size {
+             font-size: 10px;
+             padding-left: 3px;
+             padding-right: 3px;
+         }
+     }
+
+     @media screen and (max-width:576px) {
+         .logo-size {
+             font-size: 10px;
+             padding-left: 1px;
+             padding-right: 1px;
+         }
+         .uppercase {
+             text-transform: uppercase;
+             font-weight: bold;
+             padding-top: 10px;
+         }
+         .imgover {
+             background-color: rgba(128, 128, 128, 0.829);
+             border-radius: 20px;
+             margin-right: 10px;
+             padding: 10px;
+             font-size: 15px;
+             letter-spacing: 1px;
+         }
+         .mostloved {
+             font-size: 15px;
+             letter-spacing: 1px;
+             color: gray;
+             background-color: rgba(255, 255, 255, 0.164);
+             padding: 7px;
+         }
+         .view {
+             color: green;
+             font-size: 16px;
+         }
+         .bigfont {
+             font-size: 18px;
+         }
+         .mediumfont {
+             font-size: 12px;
+             letter-spacing: 2px;
+             color: gray;
+         }
+         .mediumfont-list {
+             font-size: 8px;
+             letter-spacing: 2px;
+             color: gray;
+         }
+         .smallfont {
+             font-size: 8px;
+             letter-spacing: 2px;
+         }
+         .promotextsmall {
+             color: purple;
+             font-size: 8px;
+             letter-spacing: 1px;
+         }
+         .promotext {
+             font-size: 12px;
+         }
+         .tag {
+             font-size: 12px;
+         }
+         .padd {
+             padding-left: 8px;
+         }
+         .green {
+             color: green;
+         }
+     }
+
+     @media screen and (max-width:768px) {
+         .logo-size {
+             font-size: 10px;
+             padding-left: 1px;
+             padding-right: 1px;
+         }
+         .uppercase {
+             text-transform: uppercase;
+             font-weight: bold;
+             padding-top: 10px;
+         }
+         .imgover {
+             background-color: rgba(128, 128, 128, 0.829);
+             border-radius: 20px;
+             margin-right: 10px;
+             padding: 10px;
+             font-size: 15px;
+             letter-spacing: 1px;
+         }
+         .mostloved {
+             font-size: 15px;
+             letter-spacing: 1px;
+             color: gray;
+             background-color: rgba(255, 255, 255, 0.164);
+             padding: 7px;
+         }
+         .view {
+             color: green;
+             font-size: 16px;
+         }
+         .bigfont {
+             font-size: 18px;
+         }
+         .mediumfont {
+             font-size: 12px;
+             letter-spacing: 2px;
+             color: gray;
+         }
+         .mediumfont-list {
+             font-size: 8px;
+             letter-spacing: 2px;
+             color: gray;
+         }
+         .smallfont {
+             font-size: 8px;
+             letter-spacing: 2px;
+         }
+         .promotextsmall {
+             color: purple;
+             font-size: 8px;
+             letter-spacing: 1px;
+         }
+         .promotext {
+             font-size: 12px;
+         }
+         .tag {
+             font-size: 12px;
+         }
+         .padd {
+             padding-left: 8px;
+         }
+         .green {
+             color: green;
+         }
+     }
+
+     @media screen and (max-width:992px) {
+         .logo-size {
+             font-size: 10px;
+             padding-left: 1px;
+             padding-right: 1px;
+         }
+         .uppercase {
+             text-transform: uppercase;
+             font-weight: bold;
+             padding-top: 10px;
+         }
+         .imgover {
+             background-color: rgba(128, 128, 128, 0.829);
+             border-radius: 20px;
+             margin-right: 10px;
+             padding: 10px;
+             font-size: 15px;
+             letter-spacing: 1px;
+         }
+         .mostloved {
+             font-size: 15px;
+             letter-spacing: 1px;
+             color: gray;
+             background-color: rgba(255, 255, 255, 0.164);
+             padding: 7px;
+         }
+         .view {
+             color: green;
+             font-size: 16px;
+         }
+         .bigfont {
+             font-size: 20px;
+         }
+         .mediumfont {
+             font-size: 14px;
+             letter-spacing: 2px;
+             color: gray;
+         }
+         .mediumfont-list {
+             font-size: 10px;
+             letter-spacing: 2px;
+             color: gray;
+         }
+         .smallfont {
+             font-size: 10px;
+             letter-spacing: 2px;
+         }
+         .promotextsmall {
+             color: purple;
+             font-size: 10px;
+             letter-spacing: 1px;
+         }
+         .promotext {
+             font-size: 14px;
+         }
+         .tag {
+             font-size: 14px;
+         }
+         .padd {
+             padding-left: 2px;
+         }
+         .green {
+             color: green;
+         }
+     }
