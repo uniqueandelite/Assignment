@@ -76,6 +76,7 @@ $(document).ready(function () {
     };
     //Empty Bucket
     var room_array = [];
+    console.log(room_array);
     var room_row = $("#room_list");
     //Populating list
     function populate() {
