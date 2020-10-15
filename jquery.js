@@ -3,7 +3,6 @@ $(document).ready(function () {
     var currentDay = ("0" + currentDate.getDate()).slice(-2);
     var currentMonth = ("0" + (currentDate.getMonth() + 1)).slice(-2);
     var currentYear = currentDate.getFullYear();
-    console.log(currentTeat)
     var finalDate = currentYear + "-" + currentMonth + "-" + currentDay;
     $(".row").find("#checkInDate").val(finalDate).attr("min", finalDate);
     $(".row").find("#checkOutDate").val(finalDate).attr("min", finalDate);
