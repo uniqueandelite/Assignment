@@ -1,13 +1,13 @@
      .container1 {
          position: relative;
          text-align: center;
-         color: #ffff;
+         color: white;
      }
 
      input[type=date] {
          text-decoration: none;
          background-color: inherit;
-         color: #0000;
+         color: black;
          border: 0px;
      }
 
