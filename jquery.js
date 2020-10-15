@@ -100,6 +100,7 @@ $(document).ready(function () {
                 roomCode.find("#room_quant").val(quant);
                 roomCode.find("#final_rate").text(mrpPrice);
                 totalAmount = totalAmount + (totalDays * quant * mrpPrice);
+                console.log(totalAmount);
             }
         }
         $(".row").find("#totalAmount").text(totalAmount);
