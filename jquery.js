@@ -26,6 +26,7 @@ $(document).ready(function () {
         //Edit Room Quantity
         room_code.find("#edit").on("click", function () {
             var room_quantity_id = $(this).next();
+            console.log(room_quantity_id);
             var status = room_quantity_id.prop("disabled");
             if (status == true) {
                 room_quantity_id.prop("disabled", false);
