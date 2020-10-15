@@ -1,6 +1,5 @@
 $(document).ready(function () {
     var currentDate = new Date();
-    console.log(currentDate);
     var currentDay = ("0" + currentDate.getDate()).slice(-2);
     var currentMonth = ("0" + (currentDate.getMonth() + 1)).slice(-2);
     console.log(currentMonth);
