@@ -181,6 +181,7 @@ $(document).ready(function () {
     //Guest number
     $(".row").find("#guest-no").change(function () {
         var guest_no = $(this).val();
+        console.log(guest_no);
         $(".row").find("#guest").text(guest_no);
     });
 });
