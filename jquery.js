@@ -1,6 +1,7 @@
 $(document).ready(function () {
     var currentDate = new Date();
     var currentDay = ("0" + currentDate.getDate()).slice(-2);
+    console.log(currentDate);
     var currentMonth = ("0" + (currentDate.getMonth() + 1)).slice(-2);
     var currentYear = currentDate.getFullYear();
     var finalDate = currentYear + "-" + currentMonth + "-" + currentDay;
