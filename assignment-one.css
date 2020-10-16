@@ -4,12 +4,7 @@
          color: white;
      }
 
-     input[type=date] {
-         text-decoration: none;
-         background-color: inherit;
-         color: black;
-         border: 0px;
-     }
+     
 
      input[type=time] {
          text-decoration: none;
